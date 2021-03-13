@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="helloWorld">Hello World</string>
+    <string name="text">0</string>
+    <string name="button1">Subtract</string>
+    <string name="button2">Add</string>
+    <string name="button3">Show</string>
+    <string name="toast_message">You have one message</string>
+</resources>
