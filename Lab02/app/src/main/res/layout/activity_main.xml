@@ -16,6 +16,7 @@
         android:paddingRight="16dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
+
         <Button
             android:id="@+id/toast_button"
             android:layout_width="match_parent"
@@ -24,8 +25,8 @@
             android:width="80dp"
             android:background="@color/colorPrimary"
             android:gravity="center_horizontal"
-            android:text="@string/toast_button"
-            android:onClick="toastButton_Click"/>
+            android:onClick="toastButton_Click"
+            android:text="@string/toast_button" />
 
         <Button
             android:id="@+id/zero_button"
@@ -35,8 +36,8 @@
             android:width="80dp"
             android:background="@color/colorAccent"
             android:gravity="center_horizontal"
-            android:text="@string/zero_button"
-            android:onClick="zeroButton_Click"/>
+            android:onClick="zeroButton_Click"
+            android:text="@string/zero_button" />
 
         <Button
             android:id="@+id/count_button"
@@ -46,8 +47,8 @@
             android:width="80dp"
             android:background="@color/colorPrimaryDark"
             android:gravity="center_horizontal"
-            android:text="@string/count_button"
-            android:onClick="countButton_Click"/>
+            android:onClick="countButton_Click"
+            android:text="@string/count_button" />
     </LinearLayout>
 
     <TextView
@@ -57,9 +58,9 @@
         android:background="@color/myBackgroundColor"
         android:gravity="center"
         android:text="@string/count_initial_value"
-        android:textSize="200dp"
-        android:textColor="@color/colorPrimaryDark"
         android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="200dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

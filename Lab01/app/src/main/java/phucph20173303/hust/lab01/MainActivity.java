@@ -18,17 +18,17 @@ public class MainActivity extends AppCompatActivity {
         mShowCount = (TextView) findViewById(R.id.show_count);
     }
 
-    public  void add(View view){
+    public void add(View view) {
         mCount++;
-        if (mShowCount != null)  mShowCount.setText(Integer.toString(mCount));
+        if (mShowCount != null) mShowCount.setText(Integer.toString(mCount));
     }
 
-    public  void subtract(View view){
+    public void subtract(View view) {
         mCount--;
-        if (mShowCount != null)  mShowCount.setText(Integer.toString(mCount));
+        if (mShowCount != null) mShowCount.setText(Integer.toString(mCount));
     }
 
-    public  void showMessage(View view){
+    public void showMessage(View view) {
         Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
         toast.show();
     }

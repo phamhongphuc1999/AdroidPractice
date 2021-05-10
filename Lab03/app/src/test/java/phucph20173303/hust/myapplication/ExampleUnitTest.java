@@ -1,4 +1,4 @@
-package phucph20173303.hust.lab03;
+package phucph20173303.hust.myapplication;
 
 import org.junit.Test;
 

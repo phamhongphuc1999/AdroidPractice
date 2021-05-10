@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "phucph20173303.hust.lab03"
+        applicationId "phucph20173303.hust.myapplication"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

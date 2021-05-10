@@ -1,4 +1,4 @@
-package phucph20173303.hust.lab03;
+package phucph20173303.hust.myapplication;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("phucph20173303.hust.lab03", appContext.getPackageName());
+        assertEquals("phucph20173303.hust.myapplication", appContext.getPackageName());
     }
 }

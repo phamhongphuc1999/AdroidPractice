@@ -1,4 +1,4 @@
-package phucph20173303.hust.lab03;
+package phucph20173303.hust.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,19 +9,20 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
-    private EditText mReply;
-
     public static final String EXTRA_REPLY = "com.example.android.twoactivities.extra.REPLY";
+    private EditText mReply;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        mReply = findViewById(R.id.editText_second);
+
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         TextView textView = findViewById(R.id.text_message);
         textView.setText(message);
+
+        mReply = findViewById(R.id.editText_second);
     }
 
     public void returnReply(View view) {
