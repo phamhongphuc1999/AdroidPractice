@@ -14,7 +14,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class NetworkService {
-    private static final String ROOT_URL = "https://www.googleapis.com/books/v1/volumes?";
+    private static final String ROOT_URL = "http://203.171.20.94:8083/weatherforecast/GetToken";
 
     public static String SEND_POST(String studentId, String macId) throws IOException {
         Uri builtURI = Uri.parse(ROOT_URL).buildUpon().build();
