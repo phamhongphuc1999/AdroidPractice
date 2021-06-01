@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Phạm Hồng Phúc</string>
+    <string name="enter_student_id">Enter your student id</string>
+    <string name="student_id">Student id</string>
+    <string name="mac_id">Mac address</string>
+    <string name="enter_mac_id">Enter mac address</string>
+    <string name="get_token">Get Token</string>
+    <string name="text_local_time">Local time</string>
+    <string name="text_server_time">Server time</string>
+    <string name="text_token">Token</string>
+    <string name="local_time">Local time</string>
+    <string name="server_time">Server time</string>
+    <string name="token">Token</string>
+    <string name="no_results">No result</string>
+</resources>
